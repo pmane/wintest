@@ -20,6 +20,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.primaryColor,
         automaticallyImplyLeading: true,
+        title: Text(
+          'WinTEST',
+          style: FlutterFlowTheme.bodyText1.override(
+            fontFamily: 'Poppins',
+            fontSize: 20,
+          ),
+        ),
         actions: [],
         centerTitle: true,
         elevation: 4,
